@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a2fde5-4fee-4ac6-98d5-2cd368639103">
+  <producedTypes>
+    <objectType typeId="8a8a2210-b299-405d-840b-e3c5a37db64f" valueTypeId="c488e132-8887-4991-9524-4b7bf5815d55"/>
+    <managerType typeId="8b1ce4f3-904f-419b-b835-5cf88be31160" valueTypeId="78882758-f840-45eb-a6a8-519e1ef77028"/>
+  </producedTypes>
+  <name>ФормаРассчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма рассчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ФормаРассчета.Form.Форма</defaultForm>
+  <attributes uuid="37f53a93-06ae-434d-b264-25084edd5b2e">
+    <name>Число1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f41f94b-1f26-4daa-8efb-33f1cc5a3c73">
+    <name>Число2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="41838818-1278-4d34-bb16-88b72cb9d30c">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8ce41ffd-accf-4892-bf4e-9a2bfc1cb79e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
